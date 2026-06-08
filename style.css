@@ -1,0 +1,147 @@
+@font-face {
+    src: url(font/BlackOpsOne-Regular.ttf);
+    font-family: Nih
+}
+
+body{
+    background-color:hsl(270, 5%, 16%);
+}
+header{
+    background-color: hsl(300, 4%, 27%);
+    border:0.5px solid white;
+    border-radius:5px;
+}
+
+/*THE HEAD -------------------------------------------------------------------------*/
+.Main_Head_Block{
+    padding:10px 10px;
+    display:flex;
+    justify-content:flex-start;
+}
+.logo_head_block img{
+    height:150px;
+    margin-top: 50px;
+    margin-right:15px;
+}
+.title_head_block{
+    margin-left:20px;
+    padding-top: 0px;
+}
+
+.title_head_block h1{
+    font-family: Nih, Arial, Helvetica, sans-serif;
+    color:white
+}
+.title_head_block p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(194, 194, 194);
+    font-style:italic;
+}
+
+.title_head_block ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue
+}
+
+/*THE BODY -------------------------------------------------------------------------*/
+.about_body{
+    display:flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-left:15px;
+}
+
+.about_text h3{
+    font-size:25px;
+    color:rgb(247, 203, 29);
+    font-family: Nih, Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+}
+
+.about_bodytext{
+    font-size:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(177, 177, 177);
+    margin-left: 15px;
+    border: 5px dotted rgb(184, 161, 29)
+}
+
+.about_bodytext p{
+    font-size:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(177, 177, 177);
+    margin-left: 15px;
+    
+}
+
+/*THE BODY RESPONSE---------------------------------*/
+
+.respond_1_block{
+    background-color:rgb(255, 208, 79);
+    padding:10px 15px 15px 15px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:30px;
+    margin-left:30px;
+    border: 2px solid rgb(230, 197, 12);
+    border-radius:20px;
+    display: flex
+}
+
+.profile_response img{
+    height:40px;
+    border: 4px solid white;
+    border-radius:20px
+}
+
+.respond1{
+    margin-left:15px;
+}
+
+.respond1 h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(180, 104, 6);
+}
+
+.respond1 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(115, 97, 24);
+}
+
+.image_about{
+    display:flex;
+    justify-content: flex-start;
+    margin:10px;
+    gap:10px;
+}
+
+.image_about img{
+    height:200px;
+    border: 5px solid rgb(230, 197, 12);;
+    border-radius:10px
+}
+
+/*THE FOOTER -------------------------------------------------------------------------*/
+
+.footer_nih{
+    background-color: hsl(300, 4%, 27%);
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+}
+
+.footer_nih h4{
+    font-size:25px;
+    color:rgb(247, 203, 29);
+    font-family: Nih, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer_nih p{
+    font-size:15px;
+    color:rgb(188, 188, 188);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:15px;
+}
